@@ -1,4 +1,28 @@
 
+/* Estilos Generales*/
+
+li {
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+h5, p {
+  font-weight: bold;
+}
+
+
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
 /* Barra de navegacion */
 
 .navbar {
@@ -14,20 +38,93 @@
   }
 
 
-li {
-    font-size: 1.3rem;
-    font-weight: bold;
 
-  }
+/* Seccion Portada */
 
-.sectionCarrusel {
-    background-color: #5b7398;
 
+
+
+/* Seccion Nosotros */
+
+.seccionOscura {
+  color: rgb(2, 66, 169);
+  background-color: #1b1b32;
 }
 
-h5, p {
-    font-weight: bold;
+.sobreNosotros {
+  height: 500px;
+  padding: 10px;
 }
+
+.sobreNosotros .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+.seccionTitulo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 15px 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccionTexto {
+  
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+}
+
+
+/* Seccion Servicios */
+
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
+
 
 
 /* Responsive */
@@ -38,3 +135,9 @@ h5, p {
       display: none;
     }
   }
+
+
+  @media screen and (min-width: 700px) {
+    .fondoMyC  {
+      max-width: 600px;
+    }
