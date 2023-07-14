@@ -1,3 +1,11 @@
+/* Paleta de Colores: 
+   Azul #0175F5  Iconos
+   Verde Fluo #01F535 Iconos
+
+
+
+*/
+
 
 /* Estilos Generales*/
 
@@ -139,5 +147,5 @@ justify-content: center;
 
   @media screen and (min-width: 700px) {
     .fondoMyC  {
-      max-width: 600px;
+      max-width: 800px;
     }
