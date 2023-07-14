@@ -150,3 +150,18 @@ li {
     .fondoMyC  {
       max-width: 800px;
     }
+  }
+
+    /*Responsive Iconos Servicios  */
+
+    @media (max-width: 768px) {
+      .contenedorIconoServicios img {
+        width: 80px; /* Tamaño del icono para pantallas más pequeñas */
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .contenedorIconoServicios img {
+        width: 60px; /* Tamaño del icono para pantallas aún más pequeñas */
+      }
+    }
