@@ -187,11 +187,14 @@ footer {
 
 .derechos-de-autor {
   font-size: 20px;
-  
   padding: 10px;
 }
 
+.logosContacto {
+ height: 65px;
+ margin: 0px 20px 0px 20px ;
 
+}
 
 
 
@@ -223,4 +226,17 @@ footer {
       .contenedorIconoServicios img {
         width: 60px; /* Tamaño del icono para pantallas aún más pequeñas */
       }
+
+      .derechos-de-autor{
+
+        font-size: 14px;
+      }
+
+      .footer-texto {
+        font-size: 1.2rem;
+        font-family: 'Quicksand', sans-serif;
+      }
+      
+
+
     }
