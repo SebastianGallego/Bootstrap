@@ -153,8 +153,6 @@ footer {
 
 .footer-texto {
   font-size: 1.5rem;
-  padding: 10px;
-  margin-bottom: 30px;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -165,14 +163,15 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 2px;
-  margin: 10px;
-  border: 2px solid white;
+  margin: 5px;
+  border: 2px solid #0175F5;
   border-radius: 50%;
   transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales i {
-  color: white;
+  color: 0175F5;
+  
   font-size: 1.5rem;
   transition: all 0.2s ease-in;
 }
@@ -188,7 +187,7 @@ footer {
 
 .derechos-de-autor {
   font-size: 20px;
-  color: #0175F5;
+  
   padding: 10px;
 }
 
