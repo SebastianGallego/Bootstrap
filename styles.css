@@ -23,6 +23,12 @@ align-items: center;
 justify-content: center;
 }
 
+footer {
+  padding: 1rem;
+  background-color: #889ebf;
+
+}
+
 
 
 
@@ -63,7 +69,7 @@ li {
 /* Seccion Nosotros */
 
 .seccionOscura {
-  color: rgb(2, 66, 169);
+  color: #0175F5;
   background-color: #1b1b32;
 }
 
@@ -98,11 +104,11 @@ li {
 
 /* Seccion Servicios */
 
-.experiencia {
+.seccionServicios {
   padding: 40px 40px 60px 40px;
 }
 
-.experiencia .columna {
+.seccionServicios .columna {
   padding: 10px;
   border: 2px solid #8080804d;
   display: flex;
@@ -112,19 +118,19 @@ li {
   transition: all 0.2s ease-in;
 }
 
-.experiencia .columna:hover {
+.seccionServicios .columna:hover {
   color: white;
   background-color: #1b1b32;
 }
 
 
-.experiencia-titulo {
+.serviciosTitulo {
   font-size: 25px;
   font-weight: bold;
   margin: 5px 0;
 }
 
-.badges-contenedor {
+.contenedorBadges {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
@@ -133,6 +139,60 @@ li {
 .badge {
   margin: 5px;
 }
+
+
+/* Pie de pagina (footer) */
+
+footer {
+  min-height: 200px;
+}
+
+.footer-logo {
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid #0175F5;
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 20px;
+  color: #0175F5;
+  padding: 10px;
+}
+
+
 
 
 
